@@ -1,0 +1,33 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li a {
+	text-decoration: none;
+	transition: 
+	background-color 0.3s ease-out,
+	border 0.2s ease-out;
+	font-family: Georgia, Times, serif;
+	background-color: blue;
+	color: orange;
+	display: block; /* a is an inline element. "flow" */
+	width: 80px;
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid orange;
+	border-radius: 5px;
+	height: 20px;
+	line-height: 20px; 
+	/* you want the line height to match the height if you want to perfectly center the text in the box*/
+
+}
+
+ul li a:hover {
+	color: White;
+	background-color: green;
+	border: 3px solid yellow;
+
+}
