@@ -1,0 +1,39 @@
+.button {
+	background-color: #8CA336;
+	border: 1px solid ;
+	border-radius: 4px;
+	font: 700 13px Helvetica, Arial;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 130px; /*top/bottom right/left*/
+	text-align: center;
+	margin-left:30px; /*to center all the buttons on the webpage add left margin of px*/
+	
+
+
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px black;
+	float: left; /*increased the size of button*/
+	transition: background-color 0.3s ease-in;
+}
+
+a:hover {
+	background-color: #BFF375;
+	
+
+}
+
